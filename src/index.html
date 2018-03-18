@@ -3,6 +3,9 @@
 <head>
   <title>Pinecone</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.0/vegas.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.0/vegas.min.js"></script>
 </head>
 <body>
   <h1><a href="./">djiasjd oasijd</a></h1>
@@ -16,4 +19,15 @@
     </ul>
   </nav>
 </body>
+<script type="text/javascript">
+  $("body").vegas({
+    delay: 5000,
+    animation: 'random',
+    slides: [
+        { src: "./bg.jpg" },
+        { src: "./bg-2.jpg" },
+        { src: "./bg-3.jpg" }
+    ]
+  });
+</script>
 </html>
